@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 const SubCategory = require("../models/SubCategory");
 
 // GET ALL SUB-CATEGORIES
