@@ -99,7 +99,7 @@ const app = express();
 // CORS (Vercel + Local dono ke liye safe)
 app.use(
   cors({
-     origin: ["http://localhost:3000","http://localhost:5173","http://localhost:5174","http://localhost:5175","https://client-main-7ruqzxexf-sandeeps-projects-c6e2eb71.vercel.app"], // React frontend
+     origin: ["http://localhost:3000","http://localhost:5173","http://localhost:5174","http://localhost:5175","https://client-main-two.vercel.app","https://client-main-7ruqzxexf-sandeeps-projects-c6e2eb71.vercel.app"], // React frontend
     
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
